@@ -2,13 +2,13 @@
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
- * print_unsigned - Prints an unsigned number
+ * print_unsigned - Print an unsigned number
  * @types: List a of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @buffer: buffer array to handle print
+ * @flags:  calculates active flags
  * @width: get width
- * @precision: Precision specification
- * @size: Size specifier
+ * @precision: precision specification
+ * @size: size specifier
  * Return: Number of chars printed.
  */
 int print_unsigned(va_list types, char buffer[],
